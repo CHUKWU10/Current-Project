@@ -1,0 +1,30 @@
+:root {
+    --bg-color: rgba(15, 17, 56, 1);
+    --primary-color: rgba(170, 122, 36, 1);
+    --secondary-color: rgba(223, 200, 101, 1);
+    --white: rgba(255, 255, 255, 1);
+    --gray: rgba(245, 245, 245, 1);
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: var(--white);
+    font-family: Inter;
+    transition: all 0.3s ease;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(/assets/Inter/static/Inter_24pt-Regular.ttf);
+    src: url(/assets/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+img {
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+}

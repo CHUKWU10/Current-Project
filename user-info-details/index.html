@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>User Information Form</h2>
+
+    <form action="" id="UserForm" onsubmit="displaySummary(event)">
+        <label for="name">FullName:</label>
+        <input type="text" name="fullname" id="fullname" required placeholder="Enter Your Fullname">
+
+        <label for="email">Email Address:</label>
+        <input type="email" name="email" id="email" required placeholder="johnDoe@email.com">
+
+        <label for="DOB">Date Of Birth</label>
+        <input type="date" name="dob" id="dob" required>
+
+        <label for="address">Residential Address:</label>
+        <textarea name="address" id="address" required></textarea>
+
+        <label for="occupation">Occcupation</label>
+        <input type="text" name="occupation" id="occupation" required>
+
+        <label for="country">Country</label>
+        <select name="country" id="country" required>
+            <option value="">Select Country</option>
+            <option value="">Nigeria</option>
+            <option value="">Ghana</option>
+            <option value="">Kenya</option>
+            <option value="">South Africa</option>
+            <option value="">Other</option>
+        </select>
+
+        <label for="gender">Gender</label>
+        <div class="gender-options">
+            <input type="radio" name="gender" id="gender" value="Male" required>Male
+            <input type="radio" name="gender" id="gender" value="Female" required>Female
+            <input type="radio" name="gender" id="gender" value="Other" required>Other
+        </div>
+        <button type="submit">Send</button>
+    <div id="result" class="result"></div>
+    </form>
+
+
+
+
+    <script src="./main.js"></script>
+</body>
+</html>

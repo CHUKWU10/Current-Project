@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: verdana;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-color: bisque;
+
+}
+
+div{
+    background-color: rgb(59, 153, 137);
+    border-radius: 20px;
+    max-width: 500px;
+    padding: 50px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.label1{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.label2{
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 15px;
+
+}
+
+input::placeholder{
+    opacity: 0.4;
+    text-align: start;
+}
+
+#mySubmit{
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: darkgreen;
+    color: white;
+}
+
+#mySubmit:hover{
+    background-color: rgb(146, 241, 146);
+    color: black;
+
+}
+
+#myH3{
+    margin-top: 20px;
+    color: white;
+    font-size: 30px;
+}
+
