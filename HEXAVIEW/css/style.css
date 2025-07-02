@@ -105,8 +105,14 @@ hero{
 
     }
 }
-
-hr{
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/* hr{
+    margin-top: 130px;
     width: 100%;
 }
 
@@ -116,6 +122,12 @@ hr{
     justify-content: center;
     gap: 30px;
     align-items: center;
+    width: 1124px;
+    height: 701px;
+    top: 60px;
+    left: 128px;
+    gap: 36px;
+    position: relative;
 
 }
 
@@ -138,4 +150,4 @@ hr{
     background-color: black;
     width: 250px;
     height: 300px;
-}
+} */
